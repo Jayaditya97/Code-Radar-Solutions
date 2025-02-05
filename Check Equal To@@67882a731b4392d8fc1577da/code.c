@@ -6,12 +6,12 @@ int main() {
     // Input: two space-separated integers
     scanf("%d %d", &num1, &num2);
     
-    // Check if num1 is equal to num2
-    if (num1 == num2) {
-        printf("True\n");   // Output True if the numbers are equal
+    // Check if num1 is greater than or equal to num2
+    if (num1 >= num2) {
+        printf("True\n");   // Output True if the first number is greater than or equal to the second
     } else {
-        printf("False\n");  // Output False if the numbers are not equal
+        printf("False\n");  // Output False otherwise
     }
 
-    return 0
+    return 0;
 }
