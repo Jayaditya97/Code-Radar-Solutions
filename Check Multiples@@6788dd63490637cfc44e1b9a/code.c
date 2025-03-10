@@ -5,6 +5,6 @@ scanf("%d", &b);
 if (a%b==0){
     printf("Yes");
 }
-else {
+else{
     printf("No");
 }
