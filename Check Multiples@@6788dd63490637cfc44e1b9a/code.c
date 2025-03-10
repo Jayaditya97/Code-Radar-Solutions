@@ -1,10 +1,12 @@
 #include <stdio.h>
-int a,b;
-scanf("%d", &a);
-scanf("%d", &b);
-if (a%b==0){
-    printf("Yes");
-}
-else{
-    printf("No");
+int main{
+    int a,b;
+    scanf("%d %d", &a, &b);
+    if (a%b==0){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
+    return 0;  
 }
