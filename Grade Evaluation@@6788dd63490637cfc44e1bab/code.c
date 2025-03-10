@@ -2,7 +2,7 @@
 int main(){
     char c;
     scanf("%c", &c);
-    if (c>"F" || c=="E"){
+    if (c>'F' || c=='E'){
         printf("Invalid grade");
     }
     else{
