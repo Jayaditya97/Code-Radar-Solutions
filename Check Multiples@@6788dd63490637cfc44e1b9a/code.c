@@ -5,5 +5,5 @@ if (a%b==0){
     printf("Yes");
 }
 else {
-    printf("No")
+    printf("No");
 }
