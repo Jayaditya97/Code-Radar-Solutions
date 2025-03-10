@@ -20,7 +20,7 @@ int main(){
         break;
         case 6:
         printf("Saturday");
-        break
+        break;
         case 7:
         printf("Sunday");
         break;
