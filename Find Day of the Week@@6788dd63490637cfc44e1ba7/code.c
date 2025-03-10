@@ -14,7 +14,7 @@ int main(){
         case 5:
         printf("Friday");
         case 6:
-        printf("Saturday";)
+        printf("Saturday");
         case 7:
         printf("Sunday");
     }
