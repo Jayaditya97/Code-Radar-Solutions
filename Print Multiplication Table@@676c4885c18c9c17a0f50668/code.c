@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int N, prod=1;
+    int N, prod=0;
     scanf("%d", &N);
     for(int i=1;i<=10;i++){
         prod=N*i;
