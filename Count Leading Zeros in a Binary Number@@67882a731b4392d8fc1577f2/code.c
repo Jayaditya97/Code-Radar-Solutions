@@ -1,6 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    fprintf(stderr, "Debug message: This goes to stderr\n");
+    int x = 10, y = 0;
+
+    // Normal output
+    printf("Result: %d\n", x * 2);  // Goes to stdout
+
+    // Debugging message
+    fprintf(stderr, "Debug: x = %d, y = %d\n", x, y);  // Goes to stderr
+
     return 0;
 }
